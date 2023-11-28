@@ -3,6 +3,13 @@
 This repo is the official implementation for: PnPNet: Pull-and-Push Networks for Volumetric Segmentation with Boundary Confusion
 
 
+# Network
+![image](https://github.com/AlexYouXin/PnPNet/blob/main/network.png)
+
+# Abstract
+![image](https://github.com/AlexYouXin/PnPNet/blob/main/abstract.png)
+
+
 # Dataset Link
 [Pulmonary Lobe Dataset from LUNA16: Image](https://luna16.grand-challenge.org/)[ / Ground truth](https://github.com/deep-voxel/automatic_pulmonary_lobe_segmentation_using_deep_learning)
 
@@ -25,7 +32,8 @@ We follow the z-score normalization strategy in [nnUNet](https://github.com/MIC-
 
 
 # Usage
-
+If you want to train the model from scratch, run the training script as following.  
+`python train.py`  
 
 
 # Citation
