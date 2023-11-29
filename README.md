@@ -4,10 +4,10 @@ This repo is the official implementation for: PnPNet: Pull-and-Push Networks for
 
 
 # Network
-![image](https://github.com/AlexYouXin/PnPNet/blob/main/network.png)
+![image](network.png)
 
 # Abstract
-![image](https://github.com/AlexYouXin/PnPNet/blob/main/abstract.png)
+![image](abstract.png)
 
 
 # Dataset Link
