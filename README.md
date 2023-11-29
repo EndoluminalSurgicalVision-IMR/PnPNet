@@ -4,10 +4,10 @@ This repo is the official implementation for: PnPNet: Pull-and-Push Networks for
 
 
 # Network
-![image](network.png)
+![image](https://github.com/AlexYouXin/PnPNet/blob/main/network.png)
 
 # Abstract
-![image](abstract.png)
+![image](https://github.com/AlexYouXin/PnPNet/blob/main/abstract.png)
 
 
 # Dataset Link
@@ -32,8 +32,10 @@ We follow the z-score normalization strategy in [nnUNet](https://github.com/MIC-
 
 
 # Usage
-If you want to train the model from scratch, run the training script as following.  
-`python train.py`  
+If you want to train the model from scratch, please follow the next steps.  
+1. fix dataset settings according to ./config file.
+2. confirm model settings according to ./network_configs file.
+3. `python train.py`
 
 
 # Citation
