@@ -24,7 +24,7 @@ parser.add_argument('--dataset', type=str,
 parser.add_argument('--num_classes', type=int,
                     default=6, help='output channel of network')
 parser.add_argument('--list_dir', type=str,
-                    default='/dssg/home/acct-medcb/medcb-cb1/YX/shape_prior/SPM1/verse19/3dunet/lists/lists_Synapse', help='list dir')
+                    default='/lustre/home/acct-eeyj/eeyj-wr/youxin/uncertain_boundary/lung_lobe/clean_data/3dunet/3dunet/lists/lists_Synapse', help='list dir')
 parser.add_argument('--max_iterations', type=int,default=15000, help='maximum epoch number to train')
 parser.add_argument('--max_epochs', type=int, default=1500, help='maximum epoch number to train')
 parser.add_argument('--batch_size', type=int, default=1,                     # 24
