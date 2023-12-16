@@ -11,14 +11,14 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from datasets.dataset_lobe import lobe_dataset
 from utils import test_single_volume
-
+from network_configs.PnPNet import vit_seg_configs as configs
 from network_configs.PnPNet.unet import network as network
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--volume_path', type=str,
-                    default='/dssg/home/acct-medcb/medcb-cb1/YX/medical data/verse19', help='root dir for validation volume data')  # for acdc volume_path=root_dir
+                    default='/lustre/home/acct-eeyj/eeyj-wr/youxin/medical_dataset/lung_lobe/luna', help='root dir for validation volume data')  # for acdc volume_path=root_dir
 parser.add_argument('--edge_path', type=str,
-                    default='/dssg/home/acct-medcb/medcb-cb1/YX/medical data/verse19', help='edge dir for train and val data')
+                    default='/lustre/home/acct-eeyj/eeyj-wr/youxin/medical_dataset/lung_lobe/luna', help='edge dir for train and val data')
 parser.add_argument('--dataset', type=str,
                     default='Synapse', help='experiment_name')
 parser.add_argument('--num_classes', type=int,
